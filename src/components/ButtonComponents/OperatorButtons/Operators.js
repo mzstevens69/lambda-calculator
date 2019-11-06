@@ -11,9 +11,9 @@ const Operators = () => {
   return (
     <div className='operators'>
       
-      {ops.map((button, index) => (
-        <OperatorButton key={index} button={button} />
-      ))}
+      {ops.map(operator => 
+        <OperatorButton operator={operator} />
+      )}
     </div>
   );
 };

@@ -1,4 +1,11 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
 .container {
+   
     background-color: #c00025;
     width: 400px;
     height: 650px;
@@ -9,10 +16,10 @@
     
     
 }
-.logo-container {
+/* .logo-container {
     margin: 4% ;
-}
-.display {
+} */
+/* .display {
     margin-top: 25px;
     height: 90px;
     width: 350px;
@@ -26,16 +33,15 @@
     padding-right: 8%;
     font-size: 5.0rem;
     margin-left: 2%;
-  }
-  button {
-      background: whitesmoke;
-      color: darkslategray;
+  } */
+  /* button {
+      
       margin: 6px;
       padding: 12px;
       width: 80px;
       height: 70px;
       text-transform: capitalize;
       font-size: 27px;
-      border-radius: 10px;
+      border-radius: 55%;
       border: 1px solid darkslategray;
-  }
+  } */

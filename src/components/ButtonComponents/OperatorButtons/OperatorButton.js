@@ -1,13 +1,14 @@
 import React from "react";
 
 const OperatorButton = (props) => {
+  console.log(props);
   return (
-    <>
-      <button
-        className='button' onClick={() => (props.button.value)}>
+    
+      <button>
+        {props.operator.char}
          
       </button>
-    </>
+    
   );
 };
 export default OperatorButton;
