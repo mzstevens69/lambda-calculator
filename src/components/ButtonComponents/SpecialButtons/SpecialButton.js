@@ -6,10 +6,10 @@ import React from "react";
 const SpecialButton = (props) => {
   return (
     <>
-      {<button
+      <button
          onClick={() => props.setDisplay(props.special)}>
           {props.special}
-      </button>}
+      </button>
     </>
   );
 };

@@ -19,7 +19,7 @@ const Numbers = (props) => {
       {numState.map((numValue, keyIndex) => {
         return (
           <NumberButton key = {keyIndex} 
-           numValue={numValue} 
+           button={numValue} 
            setDisplay = {props.setDisplay} />
         )
       })}

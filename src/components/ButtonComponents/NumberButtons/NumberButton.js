@@ -6,10 +6,10 @@ const NumberButton = (props) => {
   
   return (
     <>
-      {<button
+      <button
         className='numButton' onClick={() => props.setDisplay(props.number)}>
        {props.number}   
-      </button>}
+      </button>
     </>
   );
 };
