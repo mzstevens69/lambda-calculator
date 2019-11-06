@@ -13,11 +13,15 @@ import { numbers } from '../../../data'
 const Numbers = (props) => {
 
   
-  const [numState, setNumState] = useState(numbers);// STEP 2 - add the imported data to state
+  const [numState, setNumState] = useState(numbers);
+  console.log('Numbers', props);// STEP 2 - add the imported data to state
   return (
     <div className='numContainer'>
       {numState.map(number => {
-      return<NumberButton key={number} text={number}/>
+      return<NumberButton 
+      key={number} 
+      text={number}
+      addNumber = {props.addNumber}/>
       })}
         
         </div> 
