@@ -1,15 +1,28 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
 .container {
+   
     background-color: #c00025;
-    width: 100%;
+    width: 400px;
+    height: 650px;
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    
+    
 }
-.display {
+.logo-container {
+    margin: 4% ;
+} 
+ .display {
     margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    height: 90px;
+    width: 350px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +32,16 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    margin-left: 2%;
+  } 
+  button {
+      
+      margin: 6px;
+      padding: 12px;
+      width: 80px;
+      height: 70px;
+      text-transform: capitalize;
+      font-size: 27px;
+      border-radius: 55%;
+      border: 1px solid darkslategray;
+  } 
